@@ -1,14 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "63ad08b93d6da5805e91d5d6a3d23cf687b7c23d"
+    "signature": "714632511b2e0e96283a16e4eba4b3e7cb645753"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "GradeBook/1.0.0": {
         "dependencies": {
-          "xunit": "2.4.1"
+          "xunit": "2.4.1",
+          "xunit.runner.console": "2.4.1"
         },
         "runtime": {
           "GradeBook.dll": {}
@@ -65,7 +66,8 @@
             "fileVersion": "2.4.1.0"
           }
         }
-      }
+      },
+      "xunit.runner.console/2.4.1": {}
     }
   },
   "libraries": {
@@ -122,6 +124,13 @@
       "sha512": "sha512-7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
       "path": "xunit.extensibility.execution/2.4.1",
       "hashPath": "xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    },
+    "xunit.runner.console/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6yGe+Vx250m1zG/nV8FH1XlftJFoidCThpRdWEIwIFE/rc/lYSuL0M+D1gMDNmZgERAR/sHR18Q/etqd6lxaNA==",
+      "path": "xunit.runner.console/2.4.1",
+      "hashPath": "xunit.runner.console.2.4.1.nupkg.sha512"
     }
   }
 }

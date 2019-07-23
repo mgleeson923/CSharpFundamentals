@@ -5844,6 +5844,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\src\\GradeBook\\Gradebook.csproj",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.1",
@@ -5879,7 +5880,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\src\\GradeBook\\Gradebook.csproj": {
+              "projectPath": "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\src\\GradeBook\\Gradebook.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5917,5 +5922,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\src\\GradeBook\\Gradebook.csproj'. Inside Visual Studio, this may be because the project is unloaded or not part of current solution so please run a restore from command-line. Otherwise the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\src\\GradeBook\\Gradebook.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }

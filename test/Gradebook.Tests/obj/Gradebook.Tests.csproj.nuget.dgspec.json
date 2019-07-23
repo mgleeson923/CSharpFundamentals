@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+        "projectName": "Gradebook.Tests",
+        "projectPath": "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+        "packagesPath": "C:\\Users\\michael.gleeson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\test\\Gradebook.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\michael.gleeson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\src\\GradeBook\\Gradebook.csproj": {
+                "projectPath": "C:\\Users\\michael.gleeson\\Desktop\\CSharpTutorials\\gradebook\\src\\GradeBook\\Gradebook.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
