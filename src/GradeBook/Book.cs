@@ -7,34 +7,43 @@ namespace GradeBook
     public class Book
     {
 
+        public Book(string name)
+        {
+            this.name = name;
+        }
+
         public Book()
         {
             grades = new List<double>();
         }
+
+       
+
         public void AddGrade(double grade)
         {
             grades.Add(grade);
         }
 
-        public void ShowStatistics()
+        public Statistics GetStatistics()
         {
-            var result = 0.0;
-            var highGrade = double.MinValue;
-            var lowGrade = double.MaxValue;
+            var result = new Statistics();
+            result.Average = 0.0;
+            result.High = double.MinValue;
+            result.Low = double.MaxValue;
 
-            foreach (double number in grades)
+            foreach (var grade in grades)
             {
-                highGrade = Math.Max(number, highGrade);
-                lowGrade = Math.Min(number, highGrade);
-                result += number;
+                result.High = Math.Max(grade, result.High);
+                result.Low = Math.Min(grade, result.Low);
+                result.Average += grade;
             }
-            result /= grades.Count;
-            Console.WriteLine($"The lowest grade is {lowGrade:N1}");
-            Console.WriteLine($"The highest grade is {highGrade:N1}");
-            Console.WriteLine($"The average grade is {result:N1}");
+            result.Average /= grades.Count;
+
+            return result;
             }
 
         private List<double> grades;
-        private string name; 
+        private string name;
+        
     }
 }

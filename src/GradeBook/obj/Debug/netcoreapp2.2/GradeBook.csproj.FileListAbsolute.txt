@@ -8,3 +8,4 @@ C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\src\GradeBook\obj\Deb
 C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\src\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.AssemblyInfo.cs
 C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\src\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.dll
 C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\src\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.pdb
+C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\src\GradeBook\obj\Debug\netcoreapp2.2\Gradebook.csprojAssemblyReference.cache

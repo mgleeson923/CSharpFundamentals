@@ -12,3 +12,6 @@ C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\test\Gradebook.Tests\
 C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\test\Gradebook.Tests\obj\Debug\netcoreapp2.2\Gradebook.Tests.AssemblyInfo.cs
 C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\test\Gradebook.Tests\obj\Debug\netcoreapp2.2\Gradebook.Tests.dll
 C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\test\Gradebook.Tests\obj\Debug\netcoreapp2.2\Gradebook.Tests.pdb
+C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\test\Gradebook.Tests\bin\Debug\netcoreapp2.2\Gradebook.dll
+C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\test\Gradebook.Tests\bin\Debug\netcoreapp2.2\Gradebook.pdb
+C:\Users\michael.gleeson\Desktop\CSharpTutorials\gradebook\test\Gradebook.Tests\obj\Debug\netcoreapp2.2\Gradebook.Tests.csproj.CopyComplete

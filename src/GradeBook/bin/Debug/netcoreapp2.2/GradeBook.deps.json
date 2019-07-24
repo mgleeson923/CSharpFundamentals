@@ -6,13 +6,13 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "GradeBook/1.0.0": {
+      "Gradebook/1.0.0": {
         "dependencies": {
           "xunit": "2.4.1",
           "xunit.runner.console": "2.4.1"
         },
         "runtime": {
-          "GradeBook.dll": {}
+          "Gradebook.dll": {}
         }
       },
       "xunit/2.4.1": {
@@ -71,7 +71,7 @@
     }
   },
   "libraries": {
-    "GradeBook/1.0.0": {
+    "Gradebook/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
